@@ -1,0 +1,6 @@
+framework module Pods_JYNetEaseTime {
+  umbrella header "Pods-JYNetEaseTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

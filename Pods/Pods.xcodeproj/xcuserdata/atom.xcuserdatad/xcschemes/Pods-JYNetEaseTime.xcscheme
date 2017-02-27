@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CE40A1B1E5BC6F30043A657"
-               BuildableName = "JYNetEaseTime.app"
-               BlueprintName = "JYNetEaseTime"
-               ReferencedContainer = "container:JYNetEaseTime.xcodeproj">
+               BlueprintIdentifier = "86DE03AD80C9C843A6D64F56388A01B8"
+               BuildableName = "Pods_JYNetEaseTime.framework"
+               BlueprintName = "Pods-JYNetEaseTime"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CE40A1B1E5BC6F30043A657"
-            BuildableName = "JYNetEaseTime.app"
-            BlueprintName = "JYNetEaseTime"
-            ReferencedContainer = "container:JYNetEaseTime.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CE40A1B1E5BC6F30043A657"
-            BuildableName = "JYNetEaseTime.app"
-            BlueprintName = "JYNetEaseTime"
-            ReferencedContainer = "container:JYNetEaseTime.xcodeproj">
+            BlueprintIdentifier = "86DE03AD80C9C843A6D64F56388A01B8"
+            BuildableName = "Pods_JYNetEaseTime.framework"
+            BlueprintName = "Pods-JYNetEaseTime"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CE40A1B1E5BC6F30043A657"
-            BuildableName = "JYNetEaseTime.app"
-            BlueprintName = "JYNetEaseTime"
-            ReferencedContainer = "container:JYNetEaseTime.xcodeproj">
+            BlueprintIdentifier = "86DE03AD80C9C843A6D64F56388A01B8"
+            BuildableName = "Pods_JYNetEaseTime.framework"
+            BlueprintName = "Pods-JYNetEaseTime"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D11D304E65015D16B2D9009 /* Pods_JYNetEaseTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CBFC8E46E40E5D215CA807 /* Pods_JYNetEaseTime.framework */; };
+		5C3A4DF71E5D169900721B84 /* ContentCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4DF61E5D169900721B84 /* ContentCollectionView.swift */; };
+		5C3A4DF91E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4DF81E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift */; };
+		5C3A4DFB1E5D207400721B84 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4DFA1E5D207400721B84 /* RandomGenerator.swift */; };
 		5CE40A201E5BC6F30043A657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40A1F1E5BC6F30043A657 /* AppDelegate.swift */; };
 		5CE40A221E5BC6F30043A657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40A211E5BC6F30043A657 /* ViewController.swift */; };
 		5CE40A251E5BC6F30043A657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE40A231E5BC6F30043A657 /* Main.storyboard */; };
 		5CE40A271E5BC6F30043A657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE40A261E5BC6F30043A657 /* Assets.xcassets */; };
 		5CE40A2A1E5BC6F30043A657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE40A281E5BC6F30043A657 /* LaunchScreen.storyboard */; };
+		5CE40A321E5BC8270043A657 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE40A311E5BC8270043A657 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06F455628D93F8808913D97E /* Pods-JYNetEaseTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNetEaseTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYNetEaseTime/Pods-JYNetEaseTime.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3A4DF61E5D169900721B84 /* ContentCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCollectionView.swift; sourceTree = "<group>"; };
+		5C3A4DF81E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsContentCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C3A4DFA1E5D207400721B84 /* RandomGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
 		5CE40A1C1E5BC6F30043A657 /* JYNetEaseTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYNetEaseTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE40A1F1E5BC6F30043A657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE40A211E5BC6F30043A657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		5CE40A261E5BC6F30043A657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE40A291E5BC6F30043A657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE40A2B1E5BC6F30043A657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE40A311E5BC8270043A657 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		94B74EC279246EB6E6B54647 /* Pods-JYNetEaseTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNetEaseTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYNetEaseTime/Pods-JYNetEaseTime.release.xcconfig"; sourceTree = "<group>"; };
+		D1CBFC8E46E40E5D215CA807 /* Pods_JYNetEaseTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYNetEaseTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D11D304E65015D16B2D9009 /* Pods_JYNetEaseTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				5CE40A1E1E5BC6F30043A657 /* JYNetEaseTime */,
 				5CE40A1D1E5BC6F30043A657 /* Products */,
+				AFB3FDF1D811495E9D31EA9C /* Pods */,
+				F219C117EF11527A1F2F447E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,29 @@
 				5CE40A261E5BC6F30043A657 /* Assets.xcassets */,
 				5CE40A281E5BC6F30043A657 /* LaunchScreen.storyboard */,
 				5CE40A2B1E5BC6F30043A657 /* Info.plist */,
+				5CE40A311E5BC8270043A657 /* HeaderView.swift */,
+				5C3A4DF61E5D169900721B84 /* ContentCollectionView.swift */,
+				5C3A4DF81E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift */,
+				5C3A4DFA1E5D207400721B84 /* RandomGenerator.swift */,
 			);
 			path = JYNetEaseTime;
+			sourceTree = "<group>";
+		};
+		AFB3FDF1D811495E9D31EA9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F455628D93F8808913D97E /* Pods-JYNetEaseTime.debug.xcconfig */,
+				94B74EC279246EB6E6B54647 /* Pods-JYNetEaseTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F219C117EF11527A1F2F447E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1CBFC8E46E40E5D215CA807 /* Pods_JYNetEaseTime.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE40A2E1E5BC6F30043A657 /* Build configuration list for PBXNativeTarget "JYNetEaseTime" */;
 			buildPhases = (
+				2E4080BFFBF0332F0D9E7664 /* [CP] Check Pods Manifest.lock */,
 				5CE40A181E5BC6F30043A657 /* Sources */,
 				5CE40A191E5BC6F30043A657 /* Frameworks */,
 				5CE40A1A1E5BC6F30043A657 /* Resources */,
+				99B3CE8105BF51880F8100A3 /* [CP] Embed Pods Frameworks */,
+				E0CC4B98BAB722D717FACAFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +171,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E4080BFFBF0332F0D9E7664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99B3CE8105BF51880F8100A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYNetEaseTime/Pods-JYNetEaseTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CC4B98BAB722D717FACAFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYNetEaseTime/Pods-JYNetEaseTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CE40A181E5BC6F30043A657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3A4DF71E5D169900721B84 /* ContentCollectionView.swift in Sources */,
 				5CE40A221E5BC6F30043A657 /* ViewController.swift in Sources */,
+				5C3A4DFB1E5D207400721B84 /* RandomGenerator.swift in Sources */,
+				5CE40A321E5BC8270043A657 /* HeaderView.swift in Sources */,
+				5C3A4DF91E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift in Sources */,
 				5CE40A201E5BC6F30043A657 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +348,7 @@
 		};
 		5CE40A2F1E5BC6F30043A657 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F455628D93F8808913D97E /* Pods-JYNetEaseTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -270,6 +362,7 @@
 		};
 		5CE40A301E5BC6F30043A657 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B74EC279246EB6E6B54647 /* Pods-JYNetEaseTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -300,6 +393,7 @@
 				5CE40A301E5BC6F30043A657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
