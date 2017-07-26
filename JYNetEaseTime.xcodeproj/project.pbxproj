@@ -48,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174ABA151F28BC0C009EF37F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5CE40A311E5BC8270043A657 /* HeaderView.swift */,
+				5C3A4DF61E5D169900721B84 /* ContentCollectionView.swift */,
+				5C3A4DF81E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift */,
+				5C3A4DFA1E5D207400721B84 /* RandomGenerator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		5CE40A131E5BC6F30043A657 = {
 			isa = PBXGroup;
 			children = (
@@ -69,16 +80,13 @@
 		5CE40A1E1E5BC6F30043A657 /* JYNetEaseTime */ = {
 			isa = PBXGroup;
 			children = (
+				174ABA151F28BC0C009EF37F /* Main */,
 				5CE40A1F1E5BC6F30043A657 /* AppDelegate.swift */,
 				5CE40A211E5BC6F30043A657 /* ViewController.swift */,
 				5CE40A231E5BC6F30043A657 /* Main.storyboard */,
 				5CE40A261E5BC6F30043A657 /* Assets.xcassets */,
 				5CE40A281E5BC6F30043A657 /* LaunchScreen.storyboard */,
 				5CE40A2B1E5BC6F30043A657 /* Info.plist */,
-				5CE40A311E5BC8270043A657 /* HeaderView.swift */,
-				5C3A4DF61E5D169900721B84 /* ContentCollectionView.swift */,
-				5C3A4DF81E5D1E6F00721B84 /* NewsContentCellCollectionViewCell.swift */,
-				5C3A4DFA1E5D207400721B84 /* RandomGenerator.swift */,
 			);
 			path = JYNetEaseTime;
 			sourceTree = "<group>";
